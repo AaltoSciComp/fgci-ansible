@@ -38,6 +38,11 @@
   name: ansible-role-ferm-firewall
   version: v1.3.0
 
+- src: https://github.com/fgci-org/ansible-role-nftables
+  path: roles
+  name: ansible-role-nftables
+  version: v1.0
+
 - src: https://github.com/CSCfi/ansible-role-fail2ban
   path: roles
   version: v1.3.1
@@ -55,7 +60,7 @@
   name: ansible-role-aliases
   version: v1.0.3
 
-- src: https://github.com/CSCfi/ansible-role-rdma
+- src: https://github.com/fgci-org/ansible-role-rdma
   path: roles
   version: v1.4.1
 
@@ -97,9 +102,9 @@
   path: roles
   version: v1.1.3
 
-- src: https://github.com/CSCfi/ansible-role-nfs
+- src: https://github.com/fgci-org/ansible-role-nfs
   path: roles
-  version: v1.1.0
+  version: v1.2.0
 
 - src: https://github.com/CSCfi/ansible-role-nfs_mount
   path: roles
@@ -107,7 +112,7 @@
 
 - src: https://github.com/CSCfi/ansible-role-arc-frontend-6
   path: roles
-  version: v1.3.1
+  version: v1.3.2
 
 - src: https://github.com/fgci-org/ansible-role-fgci-bash
   path: roles
@@ -127,7 +132,7 @@
 
 - src: https://github.com/CSCfi/ansible-role-dell
   path: roles
-  version: v1.1.8
+  version: v1.1.9
 
 - src: https://github.com/CSCfi/ansible-role-sshd-host-keys
   path: roles
