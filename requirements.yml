@@ -76,7 +76,7 @@
 
 - src: https://github.com/CSCfi/ansible-role-arc-client
   path: roles
-  version: v1.5.6
+  version: v1.5.7
 
 - src: https://github.com/fgci-org/ansible-role-yum
   path: roles
@@ -104,7 +104,7 @@
 
 - src: https://github.com/fgci-org/ansible-role-nfs
   path: roles
-  version: v1.2.0
+  version: v1.2.1
 
 - src: https://github.com/CSCfi/ansible-role-nfs_mount
   path: roles
@@ -132,7 +132,7 @@
 
 - src: https://github.com/CSCfi/ansible-role-dell
   path: roles
-  version: v1.1.9
+  version: v1.2.0
 
 - src: https://github.com/CSCfi/ansible-role-sshd-host-keys
   path: roles
